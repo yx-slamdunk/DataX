@@ -82,13 +82,13 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
 
-        <fileSet>
+        <!-- <fileSet>
             <directory>odpsreader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
             <outputDirectory>datax</outputDirectory>
-        </fileSet>
+        </fileSet> -->
         <fileSet>
             <directory>otsreader/target/datax/</directory>
             <includes>
@@ -166,7 +166,13 @@
             </includes>
             <outputDirectory>datax</outputDirectory>
         </fileSet>
-
+		<fileSet>
+		    <directory>ddbreader/target/datax/</directory>
+		        <includes>
+		            <include>**/*.*</include>
+		        </includes>
+		    <outputDirectory>datax</outputDirectory>
+		</fileSet>
         <!-- writer -->
         <fileSet>
             <directory>mysqlwriter/target/datax/</directory>
@@ -189,13 +195,13 @@
             </includes>
             <outputDirectory>datax</outputDirectory>
         </fileSet>
-        <fileSet>
+       <!--  <fileSet>
             <directory>odpswriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
             <outputDirectory>datax</outputDirectory>
-        </fileSet>
+        </fileSet> -->
         <fileSet>
             <directory>txtfilewriter/target/datax/</directory>
             <includes>
@@ -217,13 +223,13 @@
             </includes>
             <outputDirectory>datax</outputDirectory>
         </fileSet>
-        <fileSet>
+       <!--  <fileSet>
             <directory>adswriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
             <outputDirectory>datax</outputDirectory>
-        </fileSet>
+        </fileSet> -->
         <fileSet>
             <directory>streamwriter/target/datax/</directory>
             <includes>
