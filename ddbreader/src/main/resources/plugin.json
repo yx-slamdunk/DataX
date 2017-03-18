@@ -1,6 +1,6 @@
 {
     "name": "ddbreader",
-    "class": "com.alibaba.datax.plugin.reader.mysqlreader.MysqlReader",
+     "class": "com.netease.mail.stat.datax.plugin.reader.ddbreader.DdbReader",
     "description": "useScene: prod. mechanism: Jdbc connection using the database, execute select sql, retrieve data from the ResultSet. warn: The more you know about the database, the less problems you encounter.",
     "developer": "hzyangxiong2014"
 }

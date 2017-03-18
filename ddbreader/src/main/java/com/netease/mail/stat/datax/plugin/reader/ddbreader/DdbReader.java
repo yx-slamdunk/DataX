@@ -19,6 +19,14 @@ import com.alibaba.datax.plugin.rdbms.reader.Constant;
 import com.alibaba.datax.plugin.rdbms.util.DataBaseType;
 
 /**
+ * Datax用于读取DDB数据的Plugin。 插件参考mysqlreader开发，通过在 {@link DataBaseType}
+ * 中添加DDB驱动实现支持。
+ * <p>
+ * ddb的jdbc url格式参考：
+ * <ul>
+ * <h1>${ip}:${port}?key=conf/secret.key&logdir=logs/ddb/oms</h1>
+ * </ul>
+ * 
  * @author hzyangxiong2014@corp.netease.com
  */
 public class DdbReader extends Reader {
